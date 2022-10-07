@@ -16,7 +16,7 @@ as long as our domain should not depend on infrastructure to communicate with pr
 
 ## Implementation:
 For our example let's say product context can be accessed using old fashion SQL Views.Then we need to create:
-<li>IProductTranslator which contains the contract in our domain.</li>
+<li>`IProductTranslator` which contains the contract in our domain.</li>
 <li>Create ProductDatabaseTranlator which impelement the above interface and map returned product from SQL to our domain entity.</li>
 <li>DataBase adaptor which efcore implementation to access the SQL view that provieded from our 3rd party</li>
 
