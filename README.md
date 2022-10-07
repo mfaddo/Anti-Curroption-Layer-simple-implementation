@@ -19,7 +19,7 @@ For our example let's say product context can be accessed using old fashion SQL 
 
 - `IProductTranslator` which contains the contract in our domain.
 - Create `ProductDatabaseTranlator` which impelement the above interface and map returned product from SQL to our domain entity.
-- `ItemsDataBaseAdapter` which efcore implementation to access the SQL view that provieded from our 3rd party.
+- `ItemsDataBaseAdapter` which enfcore implementation to access the SQL view that provieded from our 3rd party.
 ![alt_text](https://github.com/mfaddo/Anti-Curroption-Layer-simple-implementation/blob/master/ACL-Db-Adapter.png)
 ## Why we did this?
 let's take this to another level, what if our 3rd party providers upgraded their software and they provides us an API to communicate with product context.<br/>
