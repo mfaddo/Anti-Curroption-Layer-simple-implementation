@@ -4,7 +4,7 @@ This repository contains a sample implementation for Anti Curroption Layer desig
 befor starting let's define a business use case for using ACL. <br/>
 
 ## Business Use Case :
-let's say we have an e-commerce and we are working on Order module, for order context we need to deal with product context which provided be 3rd party system.<br/>
+let's say we have an e-commerce and we are working on Order module, for order context we need to deal with product context which provided by 3rd party system.<br/>
 Here it comes the value of ACL in order to depend on 3rd party context , ACL decouple the dependency from our domain. <br/>
 
 ## Building Blocks for ACL :
