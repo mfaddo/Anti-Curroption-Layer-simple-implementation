@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiCurroptionLayer.SimpleImplementation", "AntiCurroptionLayer.SimpleImplementation\AntiCurroptionLayer.SimpleImplementation.csproj", "{756C5B4A-C934-4DC0-ABCC-7D759A77885C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756C5B4A-C934-4DC0-ABCC-7D759A77885C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C5B4A-C934-4DC0-ABCC-7D759A77885C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C5B4A-C934-4DC0-ABCC-7D759A77885C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C5B4A-C934-4DC0-ABCC-7D759A77885C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A01804D5-5830-403B-838E-6BED2A2F4777}
+	EndGlobalSection
+EndGlobal
